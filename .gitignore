@@ -1,0 +1,8 @@
+node_modules/
+.env
+database/skyline.db
+database/skyline.db-shm
+database/skyline.db-wal
+public/uploads/*
+!public/uploads/.gitkeep
+.DS_Store

@@ -1,0 +1,28 @@
+{
+  "name": "skyline-realestate",
+  "version": "1.0.0",
+  "description": "Skyline & Co. — a full-stack real estate listings platform (Node.js, Express, EJS, SQLite).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node database/seed.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.5",
+    "ejs": "^6.0.1",
+    "express": "^4.22.3",
+    "express-session": "^1.19.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.12.1",
+    "multer": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
